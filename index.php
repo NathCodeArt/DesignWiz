@@ -208,69 +208,59 @@ if (isset($_GET['status'])) {
 
     <footer id="contacto">
         <div class="logo">
-            <img src="img/logo_blanco.png" alt="">
+            <img src="img/svg/isologo-white.svg" alt="">
         </div>
         <div class="contain-main-footer">
-            <div class="contact">
-                <h4>Datos de contacto</h4>
-                <address>
-                    Universidad DistritalFrancisco José de CaldasNIT. 899.999.230.7
-
+            <div class="contact-regulatory-container">
+                <div class="contact">
+                    <h4>Datos de contacto</h4>
+                    <address>
+                        <ul>
+                            <li>
+                                <i class="bi bi-caret-right">Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional</i>
+                            </li>
+                            <li>
+                                <i class="bi bi-caret-right">Acuerdo de creación N° 10 de 1948 del Concejo de Bogotá</i>
+                            </li>
+                            <li>
+                                <i class="bi bi-caret-right">Acreditación Institucional de Alta Calidad - Resolución N° 023653 del 10 de diciembre del 2021</i>
+                            </li>
+                        </ul>
+                    </address>              
+                </div>
+                <div class="regulatory">
+                    <h4>Normatividad general</h4>
                     <ul>
                         <li>
-                            <i class="bi bi-caret-right">Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional</i>
+                            <i class="bi bi-caret-right">Estatuto General</i>
                         </li>
                         <li>
-                            <i class="bi bi-caret-right">Acuerdo de creación N° 10 de 1948 del Concejo de Bogotá</i>
-                        </li>
-                        <li>
-                            <i class="bi bi-caret-right">Acreditación Institucional de Alta Calidad - Resolución N° 023653 del 10 de diciembre del 2021</i>
+                            <i class="bi bi-caret-right">Proyecto Universitario Institucional - PUI</i>
                         </li>
                     </ul>
-                </address>
-                                    
-            </div>
-            <div class="regulatory">
-                <h4>Normatividad general</h4>
-                <ul>
-                    <li>
-                        <i class="bi bi-caret-right">Estatuto General</i>
-                    </li>
-                    <li>
-                        <i class="bi bi-caret-right">Proyecto Universitario Institucional - PUI</i>
-                    </li>
-                </ul>
-                <h4>Normatividad académica</h4>
-                <ul>
-                    <li>
-                        <i class="bi bi-caret-right">Derechos pecuniarios</i>
-                    </li>
-                    <li>
-                        <i class="bi bi-caret-right">Estatuto Estudiantil</i>
-                    </li>
-                    <li>
-                        <i class="bi bi-caret-right">Estatuto Docente</i>
-                    </li>
-                    <li>
-                        <i class="bi bi-caret-right">Estatuto Académico</i>
-                    </li>
-                </ul>
-            </div>
-            <div class="location">
-                <h4>Ubicación</h4>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3976.811409971502!2d-74.06924539235031!3d4.6277106729873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1696980025758!5m2!1ses!2sco" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                <div class="social-media">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-whatsapp"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-linkedin"></i>
-                    <i class="bi bi-discord"></i>
+                    <h4>Normatividad académica</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-caret-right">Derechos pecuniarios</i>
+                        </li>
+                        <li>
+                            <i class="bi bi-caret-right">Estatuto Estudiantil</i>
+                        </li>
+                        <li>
+                            <i class="bi bi-caret-right">Estatuto Docente</i>
+                        </li>
+                        <li>
+                            <i class="bi bi-caret-right">Estatuto Académico</i>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+            <div class="social-media">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-discord"></i>
             </div>
         </div>
 
