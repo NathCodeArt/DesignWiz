@@ -12,7 +12,7 @@
 
         $pass_en = base64_encode($pass);
 
-        $validacion = mysqli_query($conexion, "SELECT * FROM users where id_person = '$id_person'");
+        $validacion = mysqli_query($conexion, "INSERT INTO users where id_person = '$id_person'");
         $cant = mysqli_num_rows($validacion);
 
         if ($cant == 1) {

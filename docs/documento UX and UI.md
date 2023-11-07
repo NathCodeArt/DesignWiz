@@ -102,20 +102,15 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
 
 ### Página Principal del Aplicativo
 
-- **Barra Lateral (Menú)**
-  - Logo
+- **Barra top (Menú)**
+  - barra de busqueda
+  - añadir componente (boton)
+  - indormacion de consulta o ayuda
+  - Configuración de la Cuenta
   - Foto de perfil
-  - Información del usuario
-  - Llamado a cada uno de los módulos (mediante icono)
   - **Menú de navegación:**
-    - Módulo de Dashboard (Principal)
-    - Módulo de Generación de Presupuestos
-    - Módulo de Seguimiento Financiero
-    - Módulo de Gestión de Proyectos
-    - Módulo de Registro de Tiempo y Gastos
-    - Módulo de Plantillas de Contrato y Propuesta
-    - Módulo de Informes Financieros
-    - Configuración de la Cuenta
+    - foto de perfil (detalles email-nombre)
+    - Ultimos movimientos
     - Cierre de Sesión
   - **Configuración de la Cuenta**
     - Cambio de contraseña
@@ -124,49 +119,59 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
     - Información de contacto
     - Opciones de seguridad de la cuenta
 
+- **Barra izquierda (Menú)**
+- Módulo de Dashboard (Principal)
+- Módulo de Generación de Presupuestos
+- Módulo de Seguimiento Financiero
+- Módulo de Gestión de Proyectos
+- Módulo de Registro de Tiempo y Gastos
+- Módulo de Plantillas de Contrato y Propuesta
+- Módulo de Informes Financieros
+- uso de capasidad de almacenaminto y cambiar de plan
+- Cierre de Sesión
   
-- **Módulo de Dashboard (Principal)**
-  - Gráfica de Gastos
-  - Gráfica de Ingresos
-  - Resumen de proyectos activos
-  - Resumen de proyectos finalizados
-  - Datos financieros clave (ingresos, gastos, ganancias)
-  - Acceso rápido a otras secciones
+  - **Módulo de Dashboard (Principal)**
+    - Gráfica de Gastos
+    - Gráfica de Ingresos
+    - Resumen de proyectos activos
+    - Resumen de proyectos finalizados
+    - Datos financieros clave (ingresos, gastos, ganancias)
+    - Acceso rápido a otras secciones
 
-- **Módulo de Generación de Presupuestos**
-  - Formulario para crear un nuevo presupuesto
-  - Lista de presupuestos existentes
-  - Opciones de edición y eliminación de presupuestos
-  - Función para convertir presupuestos en facturas
+  - **Módulo de Generación de Presupuestos**
+    - Formulario para crear un nuevo presupuesto
+    - Lista de presupuestos existentes
+    - Opciones de edición y eliminación de presupuestos
+    - Función para convertir presupuestos en facturas
 
-- **Módulo de Seguimiento Financiero**
-  - Informes financieros detallados (ingresos, gastos, ganancias)
-  - Gráficos de evolución financiera
-  - Historial de transacciones
-  - Herramientas para establecer metas financieras
+  - **Módulo de Seguimiento Financiero**
+    - Informes financieros detallados (ingresos, gastos, ganancias)
+    - Gráficos de evolución financiera
+    - Historial de transacciones
+    - Herramientas para establecer metas financieras
 
-- **Módulo de Gestión de Proyectos**
-  - Lista de proyectos activos y pasados
-  - Posibilidad de crear nuevos proyectos
-  - Detalles de cada proyecto (descripción, fechas, cliente, estado)
-  - Seguimiento de progreso y tareas relacionadas
+  - **Módulo de Gestión de Proyectos**
+    - Lista de proyectos activos y pasados
+    - Posibilidad de crear nuevos proyectos
+    - Detalles de cada proyecto (descripción, fechas, cliente, estado)
+    - Seguimiento de progreso y tareas relacionadas
 
-- **Módulo de Registro de Tiempo y Gastos**
-  - Registro de horas trabajadas en proyectos
-  - Registro de gastos relacionados con proyectos
-  - Categorización de tiempo y gastos
-  - Resumen de tiempo y gastos acumulados
+  - **Módulo de Registro de Tiempo y Gastos**
+    - Registro de horas trabajadas en proyectos
+    - Registro de gastos relacionados con proyectos
+    - Categorización de tiempo y gastos
+    - Resumen de tiempo y gastos acumulados
 
-- **Módulo de Plantillas de Contrato y Propuesta**
-  - Acceso a plantillas de contrato y propuesta
-  - Personalización de plantillas
-  - Creación y envío de contratos y propuestas a clientes
+  - **Módulo de Plantillas de Contrato y Propuesta**
+    - Acceso a plantillas de contrato y propuesta
+    - Personalización de plantillas
+    - Creación y envío de contratos y propuestas a clientes
 
-- **Módulo de Informes Financieros**
-  - Generación de informes financieros personalizados
-  - Visualización de tendencias financieras
-  - Comparación de presupuesto vs. gastos reales
-  - Resumen de la situación financiera actual
+  - **Módulo de Informes Financieros**
+    - Generación de informes financieros personalizados
+    - Visualización de tendencias financieras
+    - Comparación de presupuesto vs. gastos reales
+    - Resumen de la situación financiera actual
 
-- **Cierre de Sesión**
-  - Opción para cerrar sesión de la plataforma
+  - **Cierre de Sesión**
+    - Opción para cerrar sesión de la plataforma
