@@ -19,8 +19,8 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
 
 ### Requerimientos:
 
-- [ ] **Registro y Autenticación** – RF001
-  - [ ] Los usuarios deben poder registrarse con una dirección de correo electrónico y contraseña.
+- [X] **Registro y Autenticación** – RF001
+  - [X] Los usuarios deben poder registrarse con una dirección de correo electrónico y contraseña.
   - [ ] Debe existir un proceso de autenticación seguro para iniciar sesión
 - [ ] **Gestión de Proyectos** - RF002
   - [ ] Los usuarios deben poder crear, editar y eliminar proyectos

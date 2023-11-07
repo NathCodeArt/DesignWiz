@@ -19,7 +19,7 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
 
 ### Requerimientos Funcionales:
 
-- [ ] **Registro y Autenticación** – RF001
+- [X] **Registro y Autenticación** – RF001
   - [ ] Los usuarios deben poder registrarse con una dirección de correo electrónico y contraseña.
   - [ ] Debe existir un proceso de autenticación seguro para iniciar sesión
 - [ ] **Gestión de Proyectos** - RF002
@@ -61,10 +61,11 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
 - **Servicios**
   - **Generación de Presupuestos y Facturación**
   - **Seguimiento Financiero**
+  - **Informes Financieros Personalizados**
   - **Plantillas de Contrato y Propuesta**
   - **Registro de Tiempo y Gastos**
-  - **Dashboard de Seguimiento Globalizado de Proyectos**
-  - **Informes Financieros Personalizados**
+  - **Dashboard de Seguimiento Globalizado**
+ 
 - **Sección de Contacto**
   - Logo
   - Datos de contacto de la empresa

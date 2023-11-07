@@ -17,8 +17,7 @@ if (isset($_GET['status'])) {
     <meta charset="UTF-8">
     <meta name="keywords" content="finanzas, finanaciera, freelance, diseño grafico">
     <meta name="author" content="Natalia Cardoso">
-    <meta name="description" content="Plataforma de gestión integral para freelancers de diseño gráfico. Genera presupuestos, factura, realiza seguimiento financiero, administra proyectos, registra tiempo y 
-    gastos, comunícate con clientes y mantén un control total de tus finanzas. Herramientas de eficiencia y profesionalismo para diseñadores gráficos independientes.">
+    <meta name="description" content="Plataforma de gestión integral para freelancers de diseño gráfico. Genera presupuestos, factura, realiza seguimiento financiero, administra proyectos, registra tiempo y gastos, comunícate con clientes y mantén un control total de tus finanzas. Herramientas de eficiencia y profesionalismo para diseñadores gráficos independientes.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,16 +28,16 @@ if (isset($_GET['status'])) {
     <link rel="stylesheet" href="css/style_main.css">
     <title>DesignWiz</title>
 </head>
-<body>
+<body>  
     <header>
         <nav>
             <div>
-              <img src="img/logo_blanco.png" alt="">
+              <a href="#"><img src="img/svg/isotipo-white.svg" alt="logo"></a>
             </div>
             <div>
               <ul id="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#services">Servicios</a></li>
+                <li><a href="#services">Servicios</a></li>  
                 <li><a href="#contactox">Contacto</a></li>
               </ul>
             </div>
@@ -51,20 +50,14 @@ if (isset($_GET['status'])) {
           <div class="filter">
           </div>
           <div class="general_info">
-            <h1>DesignWiz</h1>
+            <img src="img\svg\imagotipo-white.svg" alt="">
             <h2>Potencia tu Creatividad, Controla tu Éxito</h2>
             <p>
-                El proyecto es una plataforma de gestión integral diseñada para 
-                ayudar a freelancers de diseño gráfico a administrar sus proyectos 
-                de manera efectiva. La plataforma proporciona herramientas para 
-                gestionar proyectos, realizar un seguimiento financiero, generar 
-                presupuestos, facturación, comunicarse con los clientes y mantener 
-                un alto nivel de profesionalismo en sus operaciones. La plataforma 
-                incluye una interfaz de usuario intuitiva y amigable.
+                El proyecto es una plataforma de gestión integral diseñada para ayudar a freelancers de diseño gráfico a administrar sus proyectos de manera efectiva. La plataforma proporciona herramientas para gestionar proyectos, realizar un seguimiento financiero, generar presupuestos, facturación, comunicarse con los clientes y mantener un alto nivel de profesionalismo en sus operaciones. La plataforma incluye una interfaz de usuario intuitiva y amigable.
             </p>
 
-            <button type="button" class="btn_register" data-toggle="modal" data-target="#register_modal">Registrate</button>
             <button class="btn_login" data-toggle="modal" data-target="#login_modal">Ingresa</button>
+            <button type="button" class="btn_register" data-toggle="modal" data-target="#register_modal">Registrate</button>
           </div>
     </header>
   
@@ -148,85 +141,70 @@ if (isset($_GET['status'])) {
         </div>
         </div>
     </div>
+    <!--SECCION DE Seguimiento Financiero-->
+    <section class="structure_one reverse">
+        <div class="illustration_section">
+            <img src="img/png/registro_ingresos.png">
+        </div>
+        <div class="info_section">
+            <div class="title">
+                <h3>Seguimiento financiero</h3>
+            </div>
+            <p>
+                La plataforma permitirá a los freelancers llevar un seguimiento detallado de sus finanzas, incluyendo ingresos, gastos y ganancias. Los usuarios podrán ver gráficos y resúmenes financieros para tomar decisiones informadas.
+            </p>
+        </div>
+    </section>
+<!--SECCION DE Informes financieros-->
+    <section class="structure_one">
+        <div class="info_section">
+        <div class="title">
+                <h3>Informes financieros personalizados</h3>
+            </div>
+            <p>
+                Informes financieros a medida que permiten a los freelancers crear documentos detallados y adaptados a sus necesidades, destacando métricas financieras específicas para tomar decisiones estratégicas.
+            </p>
+        </div>
+        <div class="illustration_section">
+            <img src="img/png/informes.png" alt="">
+        </div>
+    </section>
 
-    <!--SECCION DE Planeación presupuestal del mes-->
-    <section class="structure_one" id="services">
-        <div class="info_section">
-            <div class="title">
-                <h3>Planeación presupuestal del mes</h3>
+<!--SECCION 3 en uno-->
+    <div class="section-column">
+        <div class="section-cards">
+            <div class="section-card">
+            <div class="section-card-img">
+                <img src="img/png/contrato_propuesta.png" alt="">
             </div>
+            <h3>Plantillas de contrato y propuesta</h3>
             <p>
-                Este módulo podría estar diseñado para ayudar a los usuarios a planificar sus 
-                gastos e ingresos para un mes específico. Puede incluir herramientas para 
-                ingresar ingresos esperados, gastos planificados y luego proporcionar un 
-                resumen de cómo se espera que se comporte el presupuesto durante ese mes.
+                Tendrás acceso a plantillas de contrato y propuesta personalizables que facilitarán la formalización de acuerdos con clientes. Podrás adaptar estas plantillas según las necesidades de cada proyecto.
             </p>
-        </div>
-        <div class="illustration_section">
-            <img src="img/planeacion.png" alt="">
-            <img class="marca_agua" src="img/marca_agua.png" alt="">
-        </div>
-    </section>
-    <!--SECCION DE Registro de ingresos y gastos-->
-    <section class="structure_one reverse">
-        <div class="illustration_section">
-            <img src="img/registro_ingresos.png">
-            <img class="marca_agua" src="img/marca_agua.png" alt="">
-        </div>
-        <div class="info_section">
-            <div class="title">
-                <h3>Registro de ingresos y gastos</h3>
             </div>
-            <p>
-                Este módulo es una herramienta fundamental para registrar y realizar un seguimiento de las transacciones financieras. Los usuarios pueden ingresar detalles sobre sus ingresos y gastos, incluyendo la fecha, la cantidad y la categoría a la que pertenecen. Esto ayuda a mantener un registro financiero ordenado y a entender cómo se está utilizando el dinero.
-            </p>
-        </div>
-    </section>
-    <!--SECCION DE Administra tus propias categorías-->
-    <section class="structure_one">
-        <div class="info_section">
-            <div class="title">
-                <h3>Administra tus propias categorías</h3>
+
+            <div class="section-card">
+            <div class="section-card-img">
+                <img src="img/png/tiempos-gastos.png" alt="">
             </div>
+            <h3>Registro de tiempo y gastos</h3>
             <p>
-                Este módulo probablemente permita a los usuarios personalizar y gestionar las categorías en las que registran sus gastos e ingresos. Por ejemplo, podrían crear categorías como "comida", "alquiler", "entretenimiento", etc., para organizar y seguir mejor sus transacciones financieras.
+                Los usuarios podrán llevar un registro detallado de las horas trabajadas en cada proyecto y agregar gastos relacionados. Esto ayudará en la facturación precisa y el seguimiento financiero.
             </p>
-        </div>
-        <div class="illustration_section">
-            <img src="img/admin_categorias.png" alt="">
-            <img class="marca_agua" src="img/marca_agua.png" alt="">
-        </div>
-    </section>
-    <!--SECCION DE Calculadora de interés compuestos-->
-    <section class="structure_one reverse">
-        <div class="illustration_section">
-            <img src="img/calculadora.png">
-            <img class="marca_agua" src="img/marca_agua.png" alt="">
-        </div>
-        <div class="info_section">
-            <div class="title">
-                <h3>Calculadora de interés compuestos</h3>
             </div>
-            <p>
-                Una calculadora de interés compuesto es una herramienta que permite a los usuarios calcular cuánto dinero pueden ganar o ahorrar con una inversión a lo largo del tiempo, teniendo en cuenta la capitalización de intereses. Por lo general, se ingresa el capital inicial, la tasa de interés y el período de tiempo, y la calculadora muestra el crecimiento potencial del dinero a lo largo de ese período.
-            </p>
-        </div>
-    </section>
-    <!--SECCION DE Dashboard de seguimiento globalizado.-->
-    <section class="structure_one">
-        <div class="info_section">
-            <div class="title">
-                <h3>Dashboard de seguimiento globalizado</h3>
+
+            <div class="section-card">
+            <div class="section-card-img">
+                <img src="img/png/dashboard.png" alt="">
             </div>
+            <h3>Registro de tiempo y gastos</h3>
             <p>
-                Un "dashboard" es un panel de control que muestra información clave de forma resumida y visualmente accesible. En este contexto, un "Dashboard de Seguimiento Globalizado" probablemente se refiere a una página o sección de la web que ofrece una visión general de datos relevantes o métricas en tiempo real sobre algún aspecto global o general, como puede ser el rendimiento financiero, el progreso hacia objetivos, o cualquier otro conjunto de datos importante para el usuario.
+                Un panel de control que proporciona a los freelancers una vista rápida y visual de datos clave sobre proyectos, finanzas y objetivos.
             </p>
+            </div>
         </div>
-        <div class="illustration_section">
-            <img src="img/dashboard_1.png" alt="">
-            <img class="marca_agua" src="img/marca_agua.png" alt="">
-        </div>
-    </section>
+    </div>
+
 
     <footer id="contacto">
         <div class="logo">
@@ -246,12 +224,10 @@ if (isset($_GET['status'])) {
                             <i class="bi bi-caret-right">Acuerdo de creación N° 10 de 1948 del Concejo de Bogotá</i>
                         </li>
                         <li>
-                            <i class="bi bi-caret-right">Acreditación Institucional de Alta Calidad - Resolución N° 023653 del 10 de diciembre del 2021                            </i>
+                            <i class="bi bi-caret-right">Acreditación Institucional de Alta Calidad - Resolución N° 023653 del 10 de diciembre del 2021</i>
                         </li>
                     </ul>
                 </address>
-               
-
                                     
             </div>
             <div class="regulatory">
@@ -299,7 +275,7 @@ if (isset($_GET['status'])) {
         </div>
 
         <div class="copy-right">
-            <span>© Copyright 2023 | Sitio creado y administrado por la  Andrés S.A</span>
+            <span>© Copyright 2023 | Sitio creado y administrado por la  Natalia S.A</span>
         </div>
         
     </footer>
