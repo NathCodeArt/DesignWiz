@@ -120,13 +120,14 @@ El objetivo principal del proyecto es proporcionar a los freelancers de diseño 
     - Opciones de seguridad de la cuenta
 
 - **Barra izquierda (Menú)**
-- Módulo de Dashboard (Principal)
-- Módulo de Generación de Presupuestos
-- Módulo de Seguimiento Financiero
-- Módulo de Gestión de Proyectos
-- Módulo de Registro de Tiempo y Gastos
-- Módulo de Plantillas de Contrato y Propuesta
-- Módulo de Informes Financieros
+- logo
+- Módulo de Dashboard "Tablero"(Principal)
+- Módulo de Generación de Presupuestos "Presupuestos"
+- Módulo de Seguimiento Financiero "Finanzas"
+- Módulo de Gestión de Proyectos "Proyectos"
+- Módulo de Registro de Tiempo y Gastos "Registro"
+- Módulo de Plantillas de Contrato y Propuesta "Contratos"
+- Módulo de Informes Financieros "Informes"
 - uso de capasidad de almacenaminto y cambiar de plan
 - Cierre de Sesión
   
