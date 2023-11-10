@@ -2,7 +2,7 @@
 
 ## Información del Proyecto
 
-- **Nombre del Proyecto:** DesignWiz: una herramienta mágica para diseñadores gráficos freelance.
+- **Nombre del Proyecto:** exi
 - **Fecha de Inicio del Proyecto:** 04/10/2023
 - **Equipo Responsable:** Natalia Cardoso
 
