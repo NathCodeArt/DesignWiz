@@ -4,7 +4,7 @@
     $server = "localhost";
     $user = "root";
     $pass = "";
-    $db = "centavos_sabios";
+    $db = "design-wiz_2023";
     
     $conexion = new mysqli($server, $user, $pass, $db);
 
