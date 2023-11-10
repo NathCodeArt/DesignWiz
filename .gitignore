@@ -1,0 +1,4 @@
+#ignorar archivos .env
+.env
+.env.dist
+#ignorar carpeta backups_db
