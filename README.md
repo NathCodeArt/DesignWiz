@@ -12,7 +12,7 @@ inicialmente trabaje con el documento en formato .html al pasarlo a .php desapar
 
 - **Menú:**
  
-| Mal | Bien |
+| ✅ | ❌ |
 |----------|----------|
 | ![menu con bug en php](readme/menu-1.jpg)  | ![menu normal en html ](readme/menu-2.jpg)|
 
